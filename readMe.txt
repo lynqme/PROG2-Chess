@@ -1,0 +1,5 @@
+In the Game class a promotion class was implemented in which a pawn can be promoted. This functions with an if else statement that determines if it is white or black and in which extreme of the board the piece is in.
+In the move method the isLegalMove() method is called which could possibly throw an IllegalChessMove Exception. Also, the piece is moved if the isLegalMove() is true. Then there is a conditional statement to test if the move qualifies a promotion and then it switches to the next turn.
+Capture is used to capture a piece and it starts by using the isLegalCapture() method. If it is true it proceeds with capturing the piece.
+isLegalMove() states the rules for each piece an determines if that piece can move the way the user is asking to move. 
+isLegalCapture states the rules for each piece to capture another piece and tests the legality of the player's move.
